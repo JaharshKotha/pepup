@@ -1,0 +1,230 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content ">
+        <li><a href="./profile.html">Profile</a></li>
+        <li><a href="./preferences.html">My Preferences</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Sign Out</a></li>
+      </ul>
+
+      <nav class="teal">
+
+        <ul id="slide-out" class="side-nav fixed">
+          <div class="side-nav_logo">
+          <a href="./home.html" class="center">
+            <img src="./img/logo-2.png" height="57" width="114">
+          </a>
+          </div>
+
+          <ul class="section table-of-contents">
+            <li><a href="./profile.html" class="waves-effect waves-teal hide-on-large-only">Profile</a></li>
+            <li><a href="./preferences.html" class="waves-effect waves-teal hide-on-large-only">My Preferences</a></li>
+            <li><a href="./bookmystudio.html" class="waves-effect waves-teal">Book My Studio</a></li>
+            <li><a href="./upcoming.html" class="waves-effect waves-teal">Upcoming Events</a></li>
+            <li><a href="./myschedule.html" class="waves-effect waves-teal">My Schedule</a></li>
+            <li><a href="./pepupmoney.html" class="waves-effect waves-teal">PepUp Money</a></li>
+            <li><a href="./invite.html" class="waves-effect waves-teal">Invite Friends</a></li>
+            <li><a href="#" class="waves-effect waves-teal hide-on-large-only">Sign Out</a></li>
+          </ul>
+
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+        <div class="nav-wrapper">
+          <div href="#!" class="brand-logo">PepUp Today</div>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Hello, User<i class="material-icons right">perm_identity arrow_drop_down </i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <main>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card-panel white">
+              <h5 class="center">Your Profile</h5>
+            </div>
+          </div>
+        </div>  
+
+      <div class="container">
+
+        <div class="row">
+                <div class="col s12 m12 l6">
+                  <div class="card-panel ">
+
+                  <div class="row">
+
+                    <form class="col s12">
+                      <div class="row">
+                      <h6>Change Name</h6>
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">account_circle</i>
+                          <input placeholder="First name Last Name" id="name" type="text" class="validate">
+                          <label for="first_name">Name</label>
+
+                        </div>
+     
+                      </div>
+
+                      <div class="row">
+                      <h6>Change e-mail</h6>
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                          <input id="email" type="email" class="validate">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+
+                    <div class="row">
+                      <h6>Change DOB</h6>
+                      <div class="input-field col s12">
+                      <i class="material-icons prefix">perm_contact_calendar</i>
+                      <input placeholder="dd/mm/yyyy"type="date" class="datepicker">
+                      </div>
+                      </div>
+                               
+
+                      <div class="row">
+                      <h6>Change Phone Number</h6>
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">phone</i>
+                          <input placeholder="10 Digit Phone Number"id="phone" type="text" length="10">
+                        </div>
+                      </div>
+ 
+
+                      <h6>Change current city</h6>
+                      <select class="browser-default">
+                        <option value="" disabled selected>Choose your city</option>
+                        <option value="1">Coimbatore</option>
+                        <option value="2">Chennai</option>
+                        <option value="3">Bangalore</option>
+                      </select>   
+
+                
+                  </form>
+                  </div>
+
+                  </div>
+                </div>
+
+
+                <div class="col s12 m12 l6">
+                  <div class="card-panel ">
+                  <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <h6 class="">Change password</h6>
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Old Password</label>
+                        </div>
+                      </div>       
+                      <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">New Password</label>
+                        </div>
+                      </div>        
+                      
+                       <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">lock</i>
+                          <input id="password" type="password" class="validate">
+                          <label for="password">Confirm New Password</label>
+                        </div>
+                      </div>  
+                      </form>
+                    </div>
+
+
+
+                  </div>
+                  <a href="" class="waves-effect waves-light btn teal right"><span>SAVE CHANGES</span></a> 
+                  </div>
+                </div>
+
+
+
+
+              </div>    
+            </div>
+
+
+      </div>
+
+
+
+
+
+
+      </main>
+
+
+      <footer class="page-footer teal">
+        <div class="container">
+          <div class="row">
+
+            <div class="col l2 s4">
+              <h5 class="white-text">Learn More</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="./blog.html">Blog</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Partners</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+
+              </ul>
+            </div>
+              <div class="col l2 s4">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/pepuptoday">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">E-mail</a></li>
+
+              </ul>
+            </div>
+            <div class="col l2  s4">
+              <h5 class="white-text">Popular</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="./studios/shapeup.html">ShapeUp GYM</a></li>
+                <li><a class="grey-text text-lighten-3" href="./studios/golds_gym.html">Gold's GYM</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2015 PepUp Today
+          <a class="grey-text text-lighten-4 right" href="#!">We &lt/heart&gt Open Source</a>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+  </html>

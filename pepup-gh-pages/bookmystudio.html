@@ -1,0 +1,178 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content ">
+        <li><a href="./profile.html">Profile</a></li>
+        <li><a href="./preferences.html">My Preferences</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Sign Out</a></li>
+      </ul>
+
+      <nav class="teal">
+
+        <ul id="slide-out" class="side-nav fixed">
+          <div class="side-nav_logo">
+          <a href="./home.html" class="center">
+            <img src="./img/logo-2.png" height="57" width="114">
+          </a>
+          </div>
+          <ul class="section table-of-contents">
+            <li><a href="./profile.html" class="waves-effect waves-teal hide-on-large-only">Profile</a></li>
+            <li><a href="./preferences.html" class="waves-effect waves-teal hide-on-large-only">My Preferences</a></li>
+            <li><a href="./bookmystudio.html" class="waves-effect waves-teal menu_border_left"><b>Book My Studio</b></a></li>
+            <li><a href="./upcoming.html" class="waves-effect waves-teal">Upcoming Events</a></li>
+            <li><a href="./myschedule.html" class="waves-effect waves-teal">My Schedule</a></li>
+            <li><a href="./pepupmoney.html" class="waves-effect waves-teal">PepUp Money</a></li>
+            <li><a href="./invite.html" class="waves-effect waves-teal">Invite Friends</a></li>
+            <li><a href="#" class="waves-effect waves-teal hide-on-large-only">Sign Out</a></li>
+          </ul>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+        <div class="nav-wrapper">
+          <div href="#!" class="brand-logo">PepUp Today</div>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Hello, User<i class="material-icons right">perm_identity arrow_drop_down </i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <main>
+        <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s4 "><a class="active home_tab" href="#all">All</a></li>
+                <li class="tab col s4 "><a class="home_tab truncate"href="#recent">My Recent</a></li>
+                <li class="tab col s4 "><a class="home_tab"href="#test3">Tab3</a></li>
+              </ul>
+            </div>
+        </div>
+
+            <div id="all" class="col s12">
+              
+              <div class="row">
+
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/banner.jpeg">
+                      <span class="card-title">Gold's GYM</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Coimbatore's finest GYM for bodybuilding.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/fone.jpg">
+                      <span class="card-title fitness_one">Fitness One</span>
+                    </div>
+                    <div class="card-content">
+                      <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_green">Book now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/banner.jpeg">
+                      <span class="card-title">Gold's GYM</span>
+                    </div>
+                    <div class="card-content">
+                      <p>Coimbatore's finest GYM for bodybuilding.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_yellow">Book now</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                  <div class="card small">
+                    <div class="card-image">
+                      <img src="img/fone.jpg">
+                      <span class="card-title fitness_one">Fitness One</span>
+                    </div>
+                    <div class="card-content">
+                      <p>At FitnessOne our only business is 'fitness'. Every aspect of fitness.</p>
+                    </div>
+                    <div class="card-action right-align">
+                      <a href="./studios/golds_gym.html" class="book_now_btn_red">Book now</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>  
+
+            </div>
+
+            <div id="recent" class="col s12">  
+            Empty! Try out some of our stduios!
+            </div>
+
+
+
+          <div id="test3" class="col s12">BLANK</div>
+
+
+        </div>
+      </main>
+
+
+      <footer class="page-footer teal">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2015 PepUp Today
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+  </html>

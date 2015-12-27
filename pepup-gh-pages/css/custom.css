@@ -1,0 +1,181 @@
+nav, header, main, footer {
+  padding-left: 240px; }
+
+@media only screen and (max-width: 992px) {
+  nav, header, main, footer {
+    padding-left: 0; } }
+.side-nav_logo {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .side-nav_logo img {
+    height: 80px;
+    width: 80px; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.signup_button {
+  margin: 0.5em;
+  margin-top: 0.8em;
+  z-index: 2; }
+  .signup_button span {
+    color: white; }
+
+.login_button {
+  margin: 0.5em;
+  margin-top: 0.8em;
+  z-index: 2; }
+  .login_button span {
+    color: white; }
+
+.home_tab {
+  color: teal !important;
+  transition: color 0.5s ease; }
+
+.home_tab:active {
+  color: red !important; }
+
+.menu_border_left {
+  border-left: 2px solid #EA4A4F; }
+
+.dropdown-content {
+  position: absolute !important;
+  top: 64px !important;
+  display: block; }
+
+.parallax-container {
+  height: 100vh;
+  margin-top: -67px;
+  z-index: -1; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.65); }
+
+.side-nav {
+  background-color: #455a64 !important; }
+  .side-nav ul li a {
+    color: white !important; }
+  .side-nav ul li:hover {
+    background-color: #00B9D8 !important; }
+
+.banner-overlay {
+  position: relative;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 10em; }
+  .banner-overlay .maintxt {
+    color: teal;
+    font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase; }
+  .banner-overlay .tagline {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    width: 40%; }
+  @media only screen and (max-width: 992px) {
+    .banner-overlay .tagline {
+      width: 100%; } }
+
+.fitness_one {
+  color: black !important; }
+
+.blog {
+  margin-right: 1em; }
+
+.blog:hover {
+  text-decoration: underline; }
+
+.book_now_btn_green {
+  padding: 0.5em;
+  border: 1px solid green;
+  color: green !important;
+  border-radius: 5px; }
+
+.book_now_btn_green:hover {
+  background-color: green;
+  color: white !important; }
+
+.book_now_btn_yellow {
+  padding: 0.5em;
+  border: 1px solid #ff9100;
+  color: #ff9100 !important;
+  border-radius: 5px; }
+
+.book_now_btn_yellow:hover {
+  background-color: #ff9100;
+  color: white !important; }
+
+.book_now_btn_red {
+  padding: 0.5em;
+  border: 1px solid red;
+  color: red !important;
+  border-radius: 5px; }
+
+.book_now_btn_red:hover {
+  background-color: red;
+  color: white !important; }
+
+.maps iframe {
+  pointer-events: none; }
+
+.tabs {
+  color: teal !important; }
+
+.login_modal {
+  width: 30%; }
+
+@media only screen and (max-width: 992px) {
+  .login_modal {
+    width: 60%;
+    height: 100%; } }
+@media only screen and (max-width: 600px) {
+  .login_modal {
+    width: 90%; } }
+.forgot_pwd {
+  padding: 0.7em; }
+
+.sched_time {
+  color: green !important;
+  border-radius: 5px; }
+
+.sched_date {
+  color: #ff9100 !important;
+  border-radius: 5px; }
+
+.inline {
+  display: inline;
+  padding: 0.5em; }
+
+.main-content {
+  padding-left: 3em;
+  padding-right: 3em; }
+
+#landing {
+  height: 101vh; }
+
+.banner-img {
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  /* For IE8 and earlier */ }
+
+.brand-logo {
+  margin-left: 2em;
+  margin-top: 0.3em; }
+  .brand-logo img {
+    height: 75px;
+    width: 75px; }
+
+@media only screen and (max-width: 992px) {
+  .brand-logo {
+    margin-left: 0em; }
+    .brand-logo img {
+      height: 60px;
+      width: 60px; } }
+
+/*# sourceMappingURL=custom.css.map */

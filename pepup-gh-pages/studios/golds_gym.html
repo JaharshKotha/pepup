@@ -1,0 +1,233 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../css/custom.css" media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../css/nouislider.min.css" media="screen,projection"/>
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="../js/jquery-2.1.4.js"></script>
+      <script type="text/javascript" src="../js/custom.js"></script>
+      <script type="text/javascript" src="../js/bin/materialize.min.js"></script>
+      <script type="text/javascript" src="../js/bin/nouislider.min.js"></script>
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content ">
+        <li><a href="../profile.html">Profile</a></li>
+        <li><a href="../preferences.html">My Preferences</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Sign Out</a></li>
+      </ul>
+
+      <nav class="teal">
+
+        <ul id="slide-out" class="side-nav fixed">
+          <div class="side-nav_logo">
+          <a href="../home.html" class="center">
+            <img src="../img/logo-2.png">
+          </a>
+          </div>
+          <ul class="section table-of-contents">
+            <li><a href="../bookmystudio.html" class="waves-effect waves-teal">Book My Studio</a></li>
+            <li><a href="../upcoming.html" class="waves-effect waves-teal">Upcoming Events</a></li>
+            <li><a href="../myschedule.html" class="waves-effect waves-teal">My Schedule</a></li>
+            <li><a href="../pepupmoney.html" class="waves-effect waves-teal">PepUp Money</a></li>
+            <li><a href="../invite.html" class="waves-effect waves-teal">Invite Friends</a></li>
+          </ul>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+        <div class="nav-wrapper">
+         
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Hello, User<i class="material-icons right">perm_identity arrow_drop_down </i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <main>
+
+
+
+          <div class="slider l6">
+            <ul class="slides">
+              <li>
+                <img src="../img/gold1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Gold's GYM</h3>
+                  <div class="light grey-text text-lighten-3">
+                    
+                    <ul class="center-align">
+                    <h6><a href="https://www.goldsgymindia.com/">Website</a></h6>
+                    <h5>Location</h5>
+                    <p>No.56, Lokmanya Tilak street, RS PURAM, Coimbatore</p>                    
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <img src="../img/gold2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>About</h3>
+                  <h5 class="light grey-text text-lighten-3">
+                    <h5>About</h5>
+                    <p>Gold's Gym started in Venice California in 1965, and soon became the hotbed for the development of training techniques, equipment and nutritional concepts that formed the foundation for the modern fitness revolution. In 1975, Gold's Gym received international attention when it was featured in the major motion picture, ‘Pumping Iron'. It was thus effectively established as the ‘Mecca of Bodybuilding'.
+                    </p>
+                  </h5>
+                </div>
+              </li>
+              <li>
+                <img src="../img/gold3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="../img/gold3.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="row">
+            <div class="col s12 m12 l7 ">
+
+              <ul class="tabs">
+              <li class="tab col s3"><a class="active home_tab" href="#schedule">Schedule</a></li>
+              <li class="tab col s3"><a href="#review" class="home_tab">Reviews</a></li>
+              </ul>
+              <div id="schedule" class="col s12">
+                
+
+                <ul class="collection">
+
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle">android</i>
+                    <a href="#" class="book_now_btn_green right">Reserve</a>
+                    <span class="title">Abs Training</span>
+                    <p> 
+                       6:00 AM to 7:00 AM
+                    </p>
+                    <a href="#!" class="secondary-content"></a>
+                  </li>
+
+                <li class="collection-item avatar">
+                    <i class="material-icons circle">android</i>
+                    <a href="#" class="book_now_btn_green right">Reserve</a>
+                    <span class="title">7 minute powerup</span>
+                    <p> 
+                       6:00 AM to 7:00 AM
+                    </p>
+                    <a href="#!" class="secondary-content"></a>
+                  </li>
+
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle">android</i>
+                    <a href="#" class="book_now_btn_green right">Reserve</a>
+                    <span class="title">Weight lifting training</span>
+                    <p> 
+                       6:00 AM to 7:00 AM
+                    </p>
+                    <a href="#!" class="secondary-content"></a>
+                  </li>
+
+                </ul>
+
+
+              </div>
+              <div id="review" class="col s12">
+              <ul class="collection">
+                <li class="collection-item avatar">
+                    <i class="material-icons circle">android</i>
+                    
+                    <span class="title">Amazing!!</span>
+                    <p> 
+                       This is the best gym! Amazing Instructors
+                    </p>
+                    <a href="#!" class="secondary-content"></a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+           
+    
+          
+          <div class="maps col s12 m12 l5">
+          <div class="container">
+            <iframe width="100%" height="450px" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.388569419121!2d76.9483664148028!3d11.009445092163686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8591cfa851a6d%3A0x93076d8e1a4d37ca!2s147%2C+Diwan+Bhadur+Rd%2C+R.S.+Puram%2C+Coimbatore%2C+Tamil+Nadu+641002%2C+India!5e0!3m2!1sen!2sjp!4v1445965158825" style="border:0" allowfullscreen>              
+            </iframe>
+          </div>
+          </div>
+          </div>
+
+
+
+  
+        
+            
+      </main>
+
+
+      <footer class="page-footer teal">
+        <div class="container">
+          <div class="row">
+
+            <div class="col l2 s4">
+              <h5 class="white-text">Learn More</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="../blog.html">Blog</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Partners</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+
+              </ul>
+            </div>
+              <div class="col l2 s4">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/pepuptoday">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">E-mail</a></li>
+
+              </ul>
+            </div>
+            <div class="col l2  s4">
+              <h5 class="white-text">Popular</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="./shapeup.html">ShapeUp GYM</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">ABC Yoga Center</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2015 PepUp Today
+          <a class="grey-text text-lighten-4 right" href="#!">We &lt/heart&gt Open Source</a>
+          </div>
+        </div>
+      </footer>
+
+      
+
+
+    </body>
+  </html>
