@@ -1,2 +1,2 @@
-PepUp Today website templates.
-Colour palette not yet fixed
+PepUp Today website templates..
+Colour palette not yet fixed.
